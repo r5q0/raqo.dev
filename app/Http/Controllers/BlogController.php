@@ -10,7 +10,7 @@ class BlogController extends Controller
 
 
     public static function blogPublic(){
-        $data = DB::table('blog')->get()->reverse();
+        $data = DB::table('blog')->orderBy('date', 'desc')->get();
         return view('blog', ['blog' => $data]);
     }
     public static function getPost($id){

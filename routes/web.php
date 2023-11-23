@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\AdminController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,3 +31,8 @@ Route::get('projects', function () {
 Route::get('services', function () {
     return view('services');
 });
+Route::get('/admin/l', function () {
+    return view('login');
+});
+Route::post('/admin/login', [AdminController::class, 'login']);
+

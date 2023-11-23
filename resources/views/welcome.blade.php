@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raqo | Home</title>
+    <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -37,7 +38,7 @@
             <p class="lg:text-lg px-5">Step into my world! 🌐 Explore a variety of blogs ranging from development insights to topics that capture my attention. Discover what keeps me inspired and busy. 📚</p>
         </div>
 
-        <div class="bg-white text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center cursor-pointer" onclick="window.location.href='projects'" >
+        <div class="bg-white text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center cursor-pointer" onclick="window.location.href='projects'">
             <h2 class="font-black  md:text-2xl">🛠️ Projects</h2>
             <p class="lg:text-lg px-5">Discover my portfolio of both open and closed-source projects. 🚀 Stay tuned for corresponding blogs that delve into the development journey behind each project. 📰</p>
         </div>
@@ -50,4 +51,5 @@
 
     </div>
 </body>
+
 </html>
