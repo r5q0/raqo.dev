@@ -26,3 +26,6 @@ Route::get('blog/{id}', function ($id) {
 Route::get('projects', function () {
     return ProjectController::getPage();
 });
+Route::get('services', function () {
+    return view('services');
+});

@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raqo | Blog</title>
+    <title>Raqo | Projects</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-[#272424] m-5">
     <div class="w-1/5 sm:w-14">
-        <a class="flex" href="/blog"><img src="/media/back.svg" alt=""></a>
+        <a class="flex" href="/"><img src="/media/back.svg" alt=""></a>
     </div>
     @foreach($projects as $index => $project)
     @if ($loop->iteration % 2 == 0)

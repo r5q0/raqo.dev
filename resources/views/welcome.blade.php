@@ -43,7 +43,7 @@
         </div>
 
 
-        <div class="bg-white text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center cursor-pointer" onclick="window.location.href='blog'">
+        <div class="bg-white text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center cursor-pointer" onclick="window.location.href='services'">
             <h2 class="font-black md:text-2xl">🚀 Services</h2>
             <p class="lg:text-lg px-5">Explore a galaxy of possibilities! 🌌 Here, you'll discover the stellar services I offer, including web development, telegram bot development, gpu server solutions, and more. 🛠️</p>
         </div>
