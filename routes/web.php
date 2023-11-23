@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get("blog", [BlogController::class, 'blogPublic']);
+
+Route::get('blog/{id}', function ($id) {
+    return BlogController::getPost($id);
+});

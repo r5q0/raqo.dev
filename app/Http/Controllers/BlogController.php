@@ -10,7 +10,11 @@ class BlogController extends Controller
 
 
     public static function blogPublic(){
-        $data = DB::table('blog')->get();
+        $data = DB::table('blog')->get()->reverse();
         return view('blog', ['blog' => $data]);
+    }
+    public static function getPost($id){
+        $data = DB::table('blog')->where('id', $id)->get();
+        return view('blogs', ['blog' => $data]);
     }
 }

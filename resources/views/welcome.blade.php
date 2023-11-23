@@ -11,7 +11,7 @@
 <body class="bg-[#272424] sm:h-screen  grid grid-cols-1">
 
     <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="flex flex-col items-center">
+        <div class=" flex flex-col items-center justify-center">
             <img class="rounded-full p-2 h-50 md:h-96" src="media/profile.png" alt="Profile Picture">
             <div class="flex justify-center space-x-5">
                 <a href="https://github.com/r5q0" class="text-white hover:opacity-70">
@@ -24,7 +24,7 @@
         </div>
         <div class="  text-center  text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center">
             <h2 class="font-black text-white text-5xl mb-6 ">Raqo</h2>
-            <p class="text-center text-white p-4 font-bold text-lg">
+            <p class="text-center text-white p-4 font-bold text-lg ">
                 As a <span class="text-blue-500">passionate</span> software developer and <span class="text-blue-500">cloud service provider</span>, I delve into the realms of <span class="text-green-500">Artificial Intelligence</span> and craft <span class="text-green-500">rule-based trading algorithms</span>. My commitment to <span class="text-pink-500">privacy</span> leads me to keep my real name and profile picture discreet. Let's explore the <span class="text-yellow-500">boundless possibilities</span> in technology together! 🚀
                 If you share similar interests or have exciting ideas, feel free to reach out let's collaborate and innovate! 🤝
             </p>
