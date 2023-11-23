@@ -37,7 +37,7 @@
             <p class="lg:text-lg px-5">Step into my world! 🌐 Explore a variety of blogs ranging from development insights to topics that capture my attention. Discover what keeps me inspired and busy. 📚</p>
         </div>
 
-        <div class="bg-white text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center">
+        <div class="bg-white text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center cursor-pointer" onclick="window.location.href='projects'" >
             <h2 class="font-black  md:text-2xl">🛠️ Projects</h2>
             <p class="lg:text-lg px-5">Discover my portfolio of both open and closed-source projects. 🚀 Stay tuned for corresponding blogs that delve into the development journey behind each project. 📰</p>
         </div>

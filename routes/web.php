@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ProjectController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,4 +21,8 @@ Route::get("blog", [BlogController::class, 'blogPublic']);
 
 Route::get('blog/{id}', function ($id) {
     return BlogController::getPost($id);
+});
+
+Route::get('projects', function () {
+    return ProjectController::getPage();
 });
