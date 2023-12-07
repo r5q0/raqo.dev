@@ -14,13 +14,15 @@
             <a class="flex" href="/"><img src="media/back.svg" alt=""></a>
         </div>
         <div class="flex justify-center flex-col gap-5 items-center">
-            @foreach($blog as $blog)
-            <a href="blog/{{$blog->id}}">
-                <div class="bg-[#404040] border-2 border-white py-3 w-[50vw] flex justify-center items-center relative rounded-lg hover:opacity-80 ">
-                    <h2 class="font-bold text-white text-center text-lg sm:text-2xl">{{$blog->title}}</h2>
-                    <p class=" text-[0.65rem] text-white   sm:text-sm absolute bottom-1 left-1">{{$blog->date}}</p>
-                </div>
-            </a>
+            @foreach ($blog as $blog)
+                <a href="blog/{{ $blog->id }}">
+                    <div
+                        class="bg-white border-4 border-black py-3 w-[50vw] flex justify-center items-center relative rounded-lg hover:opacity-80 ">
+                        <h2 class="font-bold text-black text-center text-lg sm:text-2xl">{{ $blog->title }}</h2>
+                        <p class=" text-[0.65rem] text-black sm:text-sm absolute bottom-1 left-1">{{ $blog->date }}
+                        </p>
+                    </div>
+                </a>
             @endforeach
         </div>
 

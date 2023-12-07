@@ -15,11 +15,11 @@
     </div>
     @foreach($projects as $index => $project)
     @if ($loop->iteration % 2 == 0)
-    <div class="sm:flex justify-end  ">
+    <div class="sm:flex justify-center  ">
 
         <div class="break-words w-[303px] sm:w-1/2 bg-white border-4 border-black rounded-lg m-4 p-4">
             @else
-            <div class="sm:flex justify-start ">
+            <div class="sm:flex justify-center ">
                 <div class=" break-words w-[303px] sm:w-1/2 bg-white  border-4 border-black rounded-lg m-4 p-4 ">
                     @endif
                     <h2 class="text-4xl font-bold">{{$project->title}}</h2>
