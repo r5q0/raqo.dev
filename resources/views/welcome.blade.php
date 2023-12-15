@@ -18,9 +18,16 @@
                 <a href="https://github.com/r5q0" class="text-white hover:opacity-70">
                     <img src="media/github.svg" alt="GitHub" class="h-6 w-6 inline-block mr-2">GitHub
                 </a>
-                <a href="https://discordapp.com/users/798896771366387732" class="text-indigo-500 hover:opacity-70">
-                    <img src="media/discord.svg" alt="Discord" class="h-6 w-6 inline-block mr-2">Discord
+                <a class="text-indigo-500 hover:opacity-70" onclick="copyToClipboard('r5q0')">
+                    <img src="media/discord.svg" alt="Discord" class="h-6 w-6 inline-block mr-2">r5q0
                 </a>
+
+                <script>
+                    function copyToClipboard(text) {
+                        navigator.clipboard.writeText(text);
+                        alert('My discord name has been copied to your clipboard!');
+                    }
+                </script>
             </div>
         </div>
         <div class="  text-center  text-center p-5 rounded-lg m-2 md:m-10 flex flex-col items-center justify-center">
