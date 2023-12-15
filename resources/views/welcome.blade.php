@@ -19,7 +19,7 @@
                     <img src="media/github.svg" alt="GitHub" class="h-6 w-6 inline-block mr-2">GitHub
                 </a>
                 <a class="text-indigo-500 hover:opacity-70" onclick="copyToClipboard('r5q0')">
-                    <img src="media/discord.svg" alt="Discord" class="h-6 w-6 inline-block mr-2">r5q0
+                    <img src="media/discord.svg" alt="Discord" class="h-6 w-6 inline-block mr-2">Discord
                 </a>
 
                 <script>
