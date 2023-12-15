@@ -25,7 +25,7 @@
                 <script>
                     function copyToClipboard(text) {
                         navigator.clipboard.writeText(text);
-                        alert('My discord name has been copied to your clipboard!');
+                        alert('My Discord name has been copied to your clipboard!');
                     }
                 </script>
             </div>
