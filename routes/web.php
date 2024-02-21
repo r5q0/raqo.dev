@@ -16,6 +16,10 @@ use App\Http\Controllers\AdminController;
 |
 */
 
+Route::get('/sleep', function () {
+    return view('sleep');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -35,4 +39,3 @@ Route::get('/admin/l', function () {
     return view('login');
 });
 Route::post('/admin/login', [AdminController::class, 'login']);
-

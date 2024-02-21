@@ -14,13 +14,14 @@ use App\Http\Controllers\AdminController;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+Route::Post('/sleep', 'App\Http\Controllers\SleepController@sleepLog');
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
 Route::post("/blog", [AdminController::class, 'postBlog']);
-Route::post("/project", [AdminController::class, 'postProject']);
+Route::post("/project", [AdminController::class, 'setProject']);
 
 
 Route::post('/cv', function (Request $request) {
